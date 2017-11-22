@@ -28,11 +28,6 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="ValorB" max="32767" attributes="0"/>
-                          </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
@@ -50,53 +45,60 @@
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="ValorA" min="-2" pref="337" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace pref="32" max="32767" attributes="0"/>
-                              <Component id="Confirmar" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="IntersectsAB" min="-2" max="-2" attributes="0"/>
-                                  <Component id="DisjointAB" min="-2" max="-2" attributes="0"/>
-                                  <Component id="TouchesAB" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="CrossesAB" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="WithinAB" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="ContainsAB" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="OverlapsAB" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="CoversAB" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="CoveredBYAB" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="ValorB" pref="337" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="ValorA" max="32767" attributes="0"/>
+                                  </Group>
                               </Group>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
+                      <EmptySpace pref="32" max="32767" attributes="0"/>
+                      <Component id="Confirmar" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="EqualsAB" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <Component id="EqualsAB" min="-2" max="-2" attributes="0"/>
+                          <Component id="DisjointAB" min="-2" max="-2" attributes="0"/>
+                          <Component id="IntersectsAB" min="-2" max="-2" attributes="0"/>
+                          <Component id="TouchesAB" min="-2" max="-2" attributes="0"/>
+                          <Component id="CrossesAB" min="-2" max="-2" attributes="0"/>
+                          <Component id="WithinAB" min="-2" max="-2" attributes="0"/>
+                          <Component id="ContainsAB" min="-2" max="-2" attributes="0"/>
+                          <Component id="OverlapsAB" min="-2" max="-2" attributes="0"/>
+                          <Component id="CoversAB" min="-2" max="-2" attributes="0"/>
+                          <Component id="CoveredBYAB" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="EqualsBA" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                          <Component id="DisjointBA" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="IntersectsBA" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="TouchesBA" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="CrossesBA" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="WithinBA" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="ContainsBA" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="OverlapsBA" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="CoversBA" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="CoveredBYBA" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="EqualsBA" min="-2" max="-2" attributes="0"/>
+                                  <Component id="DisjointBA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="IntersectsBA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TouchesBA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CrossesBA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="WithinBA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ContainsBA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="OverlapsBA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CoversBA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CoveredBYBA" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
               </Group>
